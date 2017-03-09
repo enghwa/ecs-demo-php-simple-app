@@ -15,7 +15,7 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>DBS PHP App</h1>
+                <h1>DBS DevOps Demo</h1>
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in the Amazon Cloud!!</p>
                 <p>The docker container is running PHP version <?php echo phpversion(); ?>.</p>
