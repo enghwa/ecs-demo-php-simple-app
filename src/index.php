@@ -15,10 +15,10 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>HappyFresh DevOps Demo</h1>
+                <h1>CDK  DevOps Demo</h1>
                 <h2>Congratulations</h2>
-                <p>Your Golang application is now running on a container in the Amazon Cloud!!</p>
-                <p>The docker container is running Golang version <?php echo phpversion(); ?>.</p>
+                <p>Your PHP application is now running on a container in the Amazon Cloud!!</p>
+                <p>The docker container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
